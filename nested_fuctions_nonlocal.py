@@ -10,3 +10,39 @@
 
 
 # print(format_receipt([("milk", 6), ("bread", 9)]))
+
+
+# exercise 2
+# def make_greeter(greeting):
+#     def greet(name):
+#         return greeting + ", " + name
+#     return greet
+
+
+# hello = make_greeter("Hello")
+# shalom = make_greeter("Shalom")
+# print(hello("Dana"))
+# print(shalom("Avi"))
+
+
+# exercise3
+# def outer():
+#     message = "outer"
+
+#     def show():
+#         print("show:", message)
+
+#     def change():
+#         nonlocal message
+#         message = "changed"
+
+#     show()
+#     change()
+#     show()
+
+
+# outer()
+
+
+# show: outer
+# show: changed
