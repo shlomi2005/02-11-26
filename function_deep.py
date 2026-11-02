@@ -27,7 +27,10 @@
 
 # exercise 3
 def format_profile(name, **details):
-    return f"{name}:{details}"
+    result = []
+    for k, v in details.items():
+        result.append(f"{k}={v}")
+    return f"{name}: {",".join(result)}"
 
 
 print(format_profile("dana", age=25, city="haifa"))
