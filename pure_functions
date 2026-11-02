@@ -1,0 +1,55 @@
+# # exersice 1
+# # pure functions
+# def square(n):
+#     return n * n
+
+
+# # side effect print
+# def log_square(n):
+#     print("squaring", n)
+#     return n * n
+
+
+# # side effect append
+# def add_itam(cart, item):
+#     cart.append(item)
+#     return cart
+
+
+# # side effect cart list of change
+# def with_item(cart, item):
+#     return cart + [item]
+
+
+# exersice 2
+
+
+# def add_price(total, price):
+
+#     sum_total = price + total
+#     return sum_total
+
+
+# total = 0
+# total = add_price(total, 10)
+# total = add_price(total, 10)
+# print(total)
+# print(add_price(0, 10))
+# print(add_price(0, 10))
+
+
+# exersice 3
+# TAX = 1.17
+
+
+# def apply_tax(prices):
+#     new_list = []
+#     for p in prices:
+#         new_list.append(p * TAX)
+#     return new_list
+
+
+# prices = [100, 50]
+# with_tax = apply_tax(prices)
+# print(prices)
+# print(with_tax)
